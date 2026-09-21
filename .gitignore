@@ -1,0 +1,15 @@
+# Local credentials - never commit these.
+# Each sketch folder keeps its own secrets.h next to a committed secrets.example.h
+secrets.h
+
+# Arduino / PlatformIO build output
+build/
+.pio/
+.vscode/
+*.bin
+*.elf
+*.map
+*.hex
+
+# HomeKit pairing dumps pulled off the device
+pair.dat
